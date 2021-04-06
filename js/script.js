@@ -50,6 +50,7 @@ function dayOfTheWeek() {
 // -----------------------------------------------------------------------------
 
 // Modificare il codice appena condiviso per stampare all'interno dell'h1 il contatore di click fatti dall'utente sul bottone
+// GOAL: stampare a schermo il contenuto di una variabile dentro un h1
 
 function initVue() {
 
@@ -57,7 +58,8 @@ function initVue() {
 
     el: "#containerId",
     data: {
-      "h1title": 0
+      "h1title": 0,
+      "url": "../img/scotland.jpeg"
     }, // END OF DATA
 
     methods: {
@@ -76,7 +78,6 @@ function initVue() {
 } // END OF FUNCTION initVue
 // -----------------------------------------------------------------------------
 
-// GOAL: stampare a schermo il contenuto di una variabile dentro un h1
 // BONUS: utilizzare un data come nome del file immagine in un tag img
 
 
