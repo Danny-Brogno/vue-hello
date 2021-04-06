@@ -55,18 +55,18 @@ function initVue() {
 
   new Vue({
 
-    el: "#app",
+    el: "#containerId",
     data: {
-      "counter": 0
+      "h1title": 0
     }, // END OF DATA
 
     methods: {
       increase: function() {
-        this.counter++;
+        this.h1title++;
       }, // END OF INCREASE
 
       decrease: function() {
-      this.counter--;
+      this.h1title--;
       } // END OF DECREASE
 
     } // END OF METHODS
@@ -78,16 +78,6 @@ function initVue() {
 
 // GOAL: stampare a schermo il contenuto di una variabile dentro un h1
 // BONUS: utilizzare un data come nome del file immagine in un tag img
-
-
-
-
-
-
-
-
-
-
 
 
 // -----------------------------------------------------------------------------

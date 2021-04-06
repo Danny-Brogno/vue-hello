@@ -18,18 +18,18 @@ body {
 header {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #lol,
 header h2:nth-child(2) {
   padding-top: 20px;
-  text-align: center;
 }
 
 /* -------------------------------------------------------------------------- */
 /* MAIN */
 
-#app {
+#containerId {
   padding-top: 20px;
 }
 
