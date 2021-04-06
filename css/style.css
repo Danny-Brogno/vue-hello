@@ -39,10 +39,30 @@ header h2:nth-child(2) {
   font-size: 20px;
 }
 
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+main .btn,
+h1:only-of-type {
+  align-self: center;
+}
+
 .row button {
   background-color: navy;
   color: white;
   width: 30px;
   height: 30px;
   border: 1px solid white;
+}
+
+main .btn + img {
+  display: block;
+  position: absolute;
+  top: 150px;
+  width: 300px;
+  height: 300px;
+  align-self: center;
 }

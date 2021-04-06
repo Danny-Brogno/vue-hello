@@ -59,7 +59,7 @@ function initVue() {
     el: "#containerId",
     data: {
       "h1title": 0,
-      "url": "../img/scotland.jpeg"
+      "url": "img/scotland.jpeg"
     }, // END OF DATA
 
     methods: {

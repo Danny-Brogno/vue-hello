@@ -23,10 +23,13 @@
         <div class="row">
 
           <h1>{{ h1title }}</h1>
-          <button @click="decrease">-</button>
-          <button @click="increase">+</button>
 
-          <img :src="url"/>
+          <div class="btn">
+            <button @click="decrease">-</button>
+            <button @click="increase">+</button>
+          </div>
+
+          <img :src="url">
 
         </div><!-- END OF ROW -->
 
