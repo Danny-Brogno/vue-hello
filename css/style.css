@@ -12,6 +12,11 @@ body {
   font-family: 'Dancing Script';
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* -------------------------------------------------------------------------- */
 /* HEADER */
 
@@ -65,4 +70,5 @@ main .btn + img {
   width: 300px;
   height: 300px;
   align-self: center;
+  border-radius: 5%;
 }

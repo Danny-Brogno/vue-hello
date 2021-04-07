@@ -72,7 +72,6 @@ function initVue() {
       } // END OF DECREASE
 
     } // END OF METHODS
-
   }); // END OF VUE
 
 } // END OF FUNCTION initVue
